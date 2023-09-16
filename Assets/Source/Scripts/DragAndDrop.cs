@@ -12,13 +12,13 @@ public class DragAndDrop : MonoBehaviour
 
     public static bool mouseButtonReleased;
 
-    private float min_X = -2.3f;
+    [SerializeField]private float min_X = -2.3f;
 
-    private float max_X = 2.3f;
+    [SerializeField]private float max_X = 2.3f;
 
-    private float min_Y = -4.7f;
+    [SerializeField]private float min_Y = -4.7f;
 
-    private float max_Y = 4.7f;
+    [SerializeField]private float max_Y = 4.7f;
 
     private void OnMouseDown()
     {
